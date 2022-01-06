@@ -2,7 +2,7 @@
 
 Given an array of integers that contains duplicate values, create a function that removes the duplicates.
 
-![](duplicates.png)
+![](removeduplicates.png)
 
 01 - The first algorithm has O(n<sup>2</sup>) performance due to the nested loop
 

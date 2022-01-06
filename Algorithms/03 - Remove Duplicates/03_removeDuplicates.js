@@ -1,6 +1,6 @@
-//#region => two number sum using hashmap
+//#region => remove duplicates using hashmap
 
-function removeDuplicates(arr, target) {
+function removeDuplicates(arr) {
   let hashmap = new Map();
 
   for (let i = 0; i < arr.length; i++) {

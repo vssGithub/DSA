@@ -1,4 +1,4 @@
-//#region => remove duplicates using nested loop
+//#region => remove duplicates by sorting & iterating through
 
 function removeDuplicates(arr) {
   let sortedArr = arr.sort(function(a, b) {
@@ -9,6 +9,7 @@ function removeDuplicates(arr) {
 
   uniqueArr.push(arr[0]);
 
+  // iterate to arr.length-1 as we're looking ahead to arr[i+1] within the function
   for (let i = 0; i < arr.length - 1; i++) {
     if (arr[i] !== arr[i+1]) {
       uniqueArr.push(arr[i+1]);
