@@ -6,6 +6,7 @@ The first node has an attribute called _head_ & the last node will have an attri
 
 ![](linkedlist1.png)
 
+In this instance, we are looking at a singly-linked list, ie. the next pointers all point forward only.
 In memory, the linked list will look similar to this
 
 ![](linkedlist2.png)
