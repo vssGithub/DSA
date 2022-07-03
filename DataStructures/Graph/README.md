@@ -3,24 +3,24 @@
 A graph is a collection of nodes & edges, as below.
 We can visualize the graph with nodes as circles & the edges as lines connecting the circles.
 
-![](graph01.png)
+![](img/graph01.png)
 
 In a directed graph, you can only move between nodes in the direction as indicated by the arrowheads.
 In an undirect graph, you can travel in any direction.
 
-![](graph02.png)
+![](img/graph02.png)
 
 In a directed graph, if you're at node A, then your neighbours are nodes B & C (as below)
 
-![](graph03.png)
+![](img/graph03.png)
 
 If you're at node C however, then your only neighbour is E
 
-![](graph04.png)
+![](img/graph04.png)
 
 The graph from above can be represented in code by a hashmap type data structure, as below
 
-![](graph05.png)
+![](img/graph05.png)
 
 # Graph Traversal
 
