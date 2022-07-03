@@ -5,8 +5,8 @@ Where this differs from the singly linked list is that every node has a _next po
 
 Similar to the singly linked list, the first node has an attribute called _head_ & the last node will have an attribute called _tail_; the representation below illustrates this
 
-![](doublylinkedlist1.png)
+![](img/doublylinkedlist1.png)
 
 Conceptually, this translates into the following object in code
 
-![](doublylinkedlist2.png)
+![](img/doublylinkedlist2.png)
