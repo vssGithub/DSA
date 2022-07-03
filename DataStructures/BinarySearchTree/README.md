@@ -2,7 +2,7 @@
 
 Trees can be thought of as Nodes, connected as follows
 
-![](trees.png)
+![](img/trees.png)
 
 The root node is at the start of the tree & has no parent.
 In this particular example, root has 3 children, as indicated at level 2.
@@ -13,7 +13,7 @@ A node that has no children is referred to as a Leaf Node.
 
 A node can be represented syntactically as follows
 
-![](node.png)
+![](img/node.png)
 
 ## Binary Trees
 
