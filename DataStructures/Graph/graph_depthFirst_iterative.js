@@ -1,6 +1,6 @@
 // depth first - iterative
 
-let depthFirstSearch = (graph, source) => {
+let depthFirstSearch_it = (graph, source) => {
   let stack = [source];
   
   while (stack.length > 0) {
@@ -25,4 +25,4 @@ let graph = {
   f: []
 }
 
-depthFirstSearch(graph, 'a');
+depthFirstSearch_it(graph, 'a');
