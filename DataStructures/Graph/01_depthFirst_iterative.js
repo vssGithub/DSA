@@ -25,4 +25,4 @@ let graph = {
   f: []
 }
 
-depthFirstSearch_it(graph, 'a');
+depthFirstSearch_it(graph, 'e');
